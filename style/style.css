@@ -10,7 +10,7 @@
     font-size: 1.25rem;
     font-weight: 600;
     color: #FFF;
-    padding: 20px;
+    padding: 15px;
     border: none;
     cursor: pointer;
 
@@ -71,16 +71,77 @@ nav{
 }
 /* End Banner style */
 /* End Header Style */
+ /* Start main style */
+ main{
+    width:75%;
+    margin: 0 auto;
+ }
+ /* Start teams Style */
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    width: 60rem;
+}
+.teams-img-container img{
+    max-width: 100%;
+}
+.teams-content{
+    padding: 0px 70px;
+    width: 40rem;
+}
+.teams-title{
+    font-size: 2.50rem;
+}
+.teams-title-one{
+    color:#727272;
+    font-weight: 500;
+
+}
+.teams-title-two{
+    color: #131313;
+    font-weight: 700;
+}
+.teams-title-three{
+    color: #FF900E;
+    font-weight: 700;
+}
+.teams-description{
+    color: #727272;
+    line-height: 26px;
+    padding: 25px 0px;
+}
+ /* End teams Style */
+ /* End main style */
+
+
 
 /* Responsive Media queries */
 /* Small drives */
 @media screen and (max-width: 576px) {
+    /* Start Shared common style */
+    .primary-button{
+        font-size: 1rem;
+        padding: 10px;
+    }
+    /* End Shared common style */
+    /* Start Header Style */
     header{
         padding:10px
     }
+    /* Start Nav Style */
     nav{
         flex-direction: column;
     }
+    .nav-list{
+        margin: 7px;
+    }
+    /* End Nav Style */
+    /* Start Banner style */
     .banner-title{
         font-size: 3rem;
         padding-top: 30px;
@@ -89,39 +150,66 @@ nav{
         margin: 0;
         margin-top: 20px;
     }
-    .primary-button{
-        font-size: 1rem;
-        padding: 10px;
-    }
+    /* End Banner style */
+    /* End Header Style */
+    /* Start main style */
+    /* Start teams Style */
+
+    /* End teams Style */
+     /* End main style */
 }
+
 /* Medium drives */
 @media screen and (min-width: 576px) and (max-width: 768px) {
-   
+    /* Start Shared common style */
+    .primary-button{
+        font-size: 1rem;
+        padding: 15px;
+    }
+    /* End Shared common style */
+    /* Start Header Style */
     header{
         padding: 10px 50px;
     }
+     /* Start Nav Style */
     nav{
         flex-direction: column;
     }
+    /* End Nav Style */
+    /* Start Banner style */
     .banner-title{
         padding-top:30px;
         font-size: 3rem;
     }
+    /* End Banner style */
+    /* End Header Style */
+    /* Start main style */
+    /* Start teams Style */
+
+    /* End teams Style */
+     /* End main style */
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+   /* Start Shared common style */
+   /* End Shared common style */
     .primary-button{
         font-size: 1rem;
         padding: 15px;
     }
-}
-@media screen and (min-width:768px) and (max-width:992px) {
+    /* Start Header Style */
     header{
         padding: 10px 50px;
     }
+    /* Start Banner style */
     .banner-title{
         padding-top:30px;
         font-size: 3rem;
     }
-    .primary-button{
-        font-size: 1rem;
-        padding: 15px;
-    }
+    /* End Banner style */
+    /* End Header Style */
+    /* Start main style */
+    /* Start teams Style */
+
+    /* End teams Style */
+     /* End main style */
 }
