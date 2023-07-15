@@ -1,4 +1,73 @@
+/* Start Shared common style */
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
+.primary-button{
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFF;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+/* End Shared common style */
+/* Start Header Style */
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+/* Start Nav Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color:#131313 ;
+}
+.nav-item{
+    display: flex;
+}
+.nav-list{
+    list-style: none;
+    margin-right: 25px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.nav-list a{
+    text-decoration: none;
+    color: #424242;
+}
+/* End Nav Style */
+/* Start Banner style */
+.banner-contain{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+    padding-top: 100px;
+}
+.banner-description{
+    color: #727272;
+    line-height: 26px;
+    padding: 25px 0px;
+}
+
+.banner-photo img{
+    margin: 20px;
+    max-width: 100%;
+}
+/* End Banner style */
+/* End Header Style */
