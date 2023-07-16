@@ -210,12 +210,12 @@ nav{
     font-weight: 400;
     line-height: 26px;
     padding: 20px 0px;
+    width: 50%;
  }
  .facts-container{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 200px;
-    padding-top: 50px ;
+    padding: 50px 0px;
  }
 .facts-card{
     border-radius: 8px;
@@ -316,7 +316,17 @@ nav{
     }
     /* End Features Style */
     /* Start Facts Style */
-    
+    .facts{
+        text-align: center;
+        padding: 0px 15px;
+    }
+    .facts-description{
+        width: 100%;
+    }
+    .facts-container{
+        flex-direction: column;
+        gap: 25px;
+    }
     /* End Facts Style */
      /* End main style */
 }
@@ -387,7 +397,25 @@ nav{
     }
     /* End Features Style */
     /* Start Facts Style */
-    
+    .facts{
+        text-align: center;
+        padding: 0px 15px;
+    }
+    .facts-description{
+        width: 100%;
+    }
+    .facts-container{
+        gap: 15px;
+    }
+    .facts-card{
+        padding: 15px 25px;
+    }
+    .facts-stats{
+        font-size: 2rem;
+    }
+    .facts-card-title{
+        font-size: 1rem;
+    }
     /* End Facts Style */
      /* End main style */
 }
@@ -460,7 +488,25 @@ nav{
     }
     /* End Features Style */
     /* Start Facts Style */
-    
+    .facts{
+        text-align: center;
+        padding: 0px 25px;
+    }
+    .facts-description{
+        width: 100%;
+    }
+    .facts-container{
+        gap: 20px;
+    }
+    .facts-card{
+        padding: 20px 30px;
+    }
+    .facts-stats{
+        font-size: 3rem;
+    }
+    .facts-card-title{
+        font-size: 1.10rem;
+    }
     /* End Facts Style */
      /* End main style */
 }
