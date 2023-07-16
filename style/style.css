@@ -266,7 +266,15 @@ nav{
 /* End Sponsors Style */
  /* End main style */
  /* Start Footer Style */
-
+ .footer{
+    background-color: #FFF4E7;
+    padding: 40px 0;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    border-radius: 8px;
+    color: #424242;
+ }
  /* End Footer Style */
 
 
@@ -378,7 +386,9 @@ nav{
     /* End Sponsors Style */
      /* End main style */
  /* Start Footer Style */
- 
+    .footer{
+        width: auto;
+    }
  /* End Footer Style */
 }
 
@@ -482,7 +492,9 @@ nav{
     /* End Sponsors Style */
      /* End main style */
     /* Start Footer Style */
-    
+    .footer{
+        width: auto;
+    }
     /* End Footer Style */
 }
 @media screen and (min-width:768px) and (max-width:992px) {
@@ -585,9 +597,11 @@ nav{
     .sponsors-card img{
         width: 100%;
     }
-    /* Start Footer Style */
-    
-    /* End Footer Style */
     /* End Sponsors Style */
      /* End main style */
+    /* Start Footer Style */
+    .footer{
+        width: 85%;
+    }
+    /* End Footer Style */
 }
