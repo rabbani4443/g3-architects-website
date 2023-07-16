@@ -7,7 +7,7 @@
 .primary-button{
     background-color: #FF900E;
     border-radius: 8px;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #FFF;
     padding: 15px;
@@ -80,19 +80,20 @@ nav{
 .teams-container{
     display: flex;
     align-items: center;
+    padding-top: 70px;
 }
 .teams-img-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 1.5rem;
-    width: 60rem;
+    width: 60%;
 }
 .teams-img-container img{
     max-width: 100%;
 }
 .teams-content{
-    padding: 0px 70px;
-    width: 40rem;
+    padding-left: 70px;
+    width: 40%;
 }
 .teams-title{
     font-size: 2.50rem;
@@ -153,7 +154,22 @@ nav{
     /* End Banner style */
     /* End Header Style */
     /* Start main style */
+    main{
+        width: auto;
+    }
     /* Start teams Style */
+    .teams-container{
+    flex-direction: column;
+    padding:20px;
+}
+    .teams-img-container{
+    grid-template-columns: 1fr;
+    width: fit-content;
+}
+    .teams-content{
+        width: fit-content;
+        padding: 10px;
+}
 
     /* End teams Style */
      /* End main style */
@@ -184,8 +200,22 @@ nav{
     /* End Banner style */
     /* End Header Style */
     /* Start main style */
+    main{
+        width: auto;
+    }
     /* Start teams Style */
-
+    .teams-container{
+    flex-direction: column;
+    padding:30px;
+}
+    .teams-img-container{
+    grid-template-columns: repeat(2,1fr);
+    width: fit-content;
+}
+    .teams-content{
+        width: fit-content;
+        padding: 10px;
+}
     /* End teams Style */
      /* End main style */
 }
@@ -208,8 +238,22 @@ nav{
     /* End Banner style */
     /* End Header Style */
     /* Start main style */
+    main{
+        width: auto;
+    }
     /* Start teams Style */
-
+    .teams-container{
+    padding: 25px;
+}
+    .teams-img-container{
+    grid-template-columns: repeat(2,1fr);
+    width: fit-content;
+    padding: 0 30px;
+}
+    .teams-content{
+        width: 40%;
+        padding: 10px;
+}
     /* End teams Style */
      /* End main style */
 }
