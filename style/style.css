@@ -122,10 +122,10 @@ nav{
     display: flex;
     margin-top: 100px;
     gap: 100px;
-    height: 100vh;
+    height: 100%;
 
 }
-.featutes-title{
+.features-title{
     color: #131313;
     font-size: 3rem;
     font-weight: 700;
@@ -141,7 +141,7 @@ nav{
 }
 .features-container{
     width: 50vw;
-    height: 100vh;
+    height: 100%;
  } 
 
 .features-card{
@@ -165,7 +165,7 @@ nav{
 
 .features-img{
     width: 50vw;
-    height: 100vh;
+    height: 100%;
 }
 .features-img img{
     width: 100%;
@@ -194,8 +194,47 @@ nav{
     line-height: 40px;
     text-align: center;
 }
-
  /* End Features Style */
+ /* Start Facts Style */
+ .facts{
+    padding-top: 50px ;
+ }
+ .facts-tittle{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+ }
+ .facts-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0px;
+ }
+ .facts-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    padding-top: 50px ;
+ }
+.facts-card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 25px 35px;
+    text-align: center;
+}
+.facts-stats{
+    color: #424242;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 15px 0px 8px 0px;
+}
+.facts-card-title{
+    color: #727272;
+    font-size: 1.10rem;
+    font-weight: 400;
+}
+ /* End Facts Style */
  /* End main style */
 
 
@@ -276,6 +315,9 @@ nav{
         right: 0;
     }
     /* End Features Style */
+    /* Start Facts Style */
+    
+    /* End Facts Style */
      /* End main style */
 }
 
@@ -344,6 +386,9 @@ nav{
         right: 0;
     }
     /* End Features Style */
+    /* Start Facts Style */
+    
+    /* End Facts Style */
      /* End main style */
 }
 @media screen and (min-width:768px) and (max-width:992px) {
@@ -413,8 +458,9 @@ nav{
         bottom: 50px;
         right: 0;
     }
-
-
     /* End Features Style */
+    /* Start Facts Style */
+    
+    /* End Facts Style */
      /* End main style */
 }
